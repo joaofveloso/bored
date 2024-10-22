@@ -1,0 +1,16 @@
+# Ignore all files in the 'bin' and 'build' directories of any subfolder
+*/bin/
+*/gradle/
+*/build/
+
+# Ignore all .class files in any subfolder
+**/*.class
+
+# Ignore IDE-specific files (like IntelliJ IDEA or Eclipse files) in any subfolder
+**/.idea/
+**/.project
+**/.settings/
+**/.classpath
+
+# Ignore Maven or Gradle build directories in any subfolder
+*/target/
